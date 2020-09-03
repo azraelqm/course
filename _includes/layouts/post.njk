@@ -3,29 +3,114 @@ layout: layouts/base.njk
 section: post
 ---
 
+
+
 <article>
-  <h1>{{ title }}</h1>
-  <p>
+
+    
+
+    <h1>{{ title }} okkkk</h1>
+    <p>
     <small>
-      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
+        <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
     </small>
-  </p>
+    </p>
 
-  {{ layoutContent | safe }}
+    {{ layoutContent | safe }}
 
-  {% if tags %}
+    {% if tags %}
     <p>
     {% for tag in tags %}
-      {%- if tag != "post" -%}
+        {%- if tag != "post" -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
         <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-      {%- endif -%}
+        {%- endif -%}
     {% endfor %}
     </p>
-  {% endif %}
+    {% endif %}
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section class="movieinformation container">
+            <div class="movielogo">
+                <img src="../images/movies/murder mystery logo.webp" alt="">
+            </div>
+            <div class="movierelease">
+                <span class="year">
+                    2019
+                </span>
+                <span class="rating">
+                    PG-13
+                </span>
+                <span class="timeduration">
+                    3h 7m
+                </span>
+            </div>
+            <div class="description">
+                A New York cop and his wife go on a European vacation to reinvigorate the spark in their marriage. A
+                chance encounter leads to them being framed for the murder of an elderly billionaire.
+            </div>
+            <div class="castinformation">
+                <p><span class="name">Director:</span> Kyle Newacheck</p>
+                <p><span class="name">Screenplay:</span> James Vanderbilt</p>
+                <p><span class="name">Producers:</span> Adam Sandler, James Vanderbilt, Allen Covert, James D. Stern,
+                    Tripp Vinson, A.J. Dix</p>
+                <p><span class="name">Awards:</span> People's Choice Award for Favorite Comedic Movie</p>
+            </div>
+            <div class="actions d-flex flex-start flex-middle">
+                <a href="#" class="link-item">
+                    <i class="fa fa-plus"></i></br>
+                    My List
+                </a>
+                <a href="#" class="link-item">
+                    <i class="fa fa-thumbs-up"></i></br>
+                    Like
+                </a>
+                <a href="#" class="link-item">
+                    <i class="fa fa-share"></i></br>
+                    Share
+                </a>
+                <a href="#" class="link-item">
+                    <i class="fa fa-download"></i></br>
+                    Download
+                </a>
+            </div>
+        </section>
 
 </article>
 
+<!--Más como esto-->
+        <section id="similar" class="container p-t-40">
+            <h4 class="romantic-heading">
+                More LIke This
+            </h4>
+            <div class="romantic-container d-flex flex-start flex-middle">
+                <a href="#">
+                    <img src="../images/movies/horrible-bosses-middle-poster.webp" alt=""
+                        class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                <a href="#">
+                    <img src="../images/movies/kabir-singh-poster.webp" alt=""
+                        class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                <a href="#">
+                    <img src="../images/movies/extraction-poster.jpg" alt=""
+                        class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                <a href="#">
+                    <img src="../images/tv-show/poster/never-have-ever-short poster.jpg" alt=""
+                        class="mylist-img p-r-10 p-t-10 image-size item"></a>
+                <a href="#">
+                    <img src="../images/movies/we-are-the-milers-poster-little.webp" alt=""
+                        class="mylist-img p-r-10 p-t-10 image-size item"></a>
+
+
+
+            </div>
+        </section>
+
+
 <nav>
-  <a href="{{ '/blog/' | url }}">← Blog index</a>
+    <a href="{{ '/blog/' | url }}">← Blog index</a>
 </nav>
+

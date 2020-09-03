@@ -1,11 +1,21 @@
 const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
-const UglifyJS = require("uglify-es");
+const UglifyJS = require("uglify-es"); //minificador js
 const htmlmin = require("html-minifier");
 const slugify = require("slugify");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
+  //WEBPACK
+  // Necesario para evitar que once ignore los cambios en `webpack.njk`
+  // ya que está en nuestro `.gitignore`
+  //eleventyConfig.setUseGitIgnore(false);
+
+  // Permitir que once comprendan archivos yaml
+  // principalmente porque queremos soporte de comentarios en el archivo de datos.
+  //eleventyConfig.addDataExtension('yml', (contents) => yaml.safeLoad(contents));
+
+  //WEBPACK
 
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -33,7 +43,7 @@ module.exports = function(eleventyConfig) {
   // Minify CSS
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
-  });
+  });09
 
   // Minify JS
   eleventyConfig.addFilter("jsmin", function(code) {
@@ -49,14 +59,35 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
     if (outputPath.indexOf(".html") > -1) {
       let minified = htmlmin.minify(content, {
-        useShortDoctype: true,
-        removeComments: true,
-        collapseWhitespace: true
+        // useShortDoctype: true,
+        // removeComments: true,
+        // collapseWhitespace: true,
+        // collapseWhitespace: true,
+
+        // removeRedundantAttributes: true,
+        // removeScriptTypeAttributes: true,
+        // removeStyleLinkTypeAttributes: true
       });
       return minified;
     }
     return content;
   });
+
+  // Minify eleventy pages in production webpack
+  // if (process.env.NODE_ENV === 'production') {
+  //   eleventyConfig.addTransform('html-min', (content, outputPath) =>
+  //     outputPath.endsWith('.html')
+  //       ? htmlmin.minify(content, {
+  //           collapseWhitespace: true,
+  //           removeComments: true,
+  //           removeRedundantAttributes: true,
+  //           removeScriptTypeAttributes: true,
+  //           removeStyleLinkTypeAttributes: true,
+  //           useShortDoctype: true
+  //         })
+  //       : content
+  //   );
+  // }
 
   // Universal slug filter strips unsafe chars from URLs
   eleventyConfig.addFilter("slugify", function(str) {
@@ -67,11 +98,13 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-  // Don't process folders with static assets e.g. images
+  // Don't process folders with static assets e.g. images  
+  //eleventyConfig.addPassthroughCopy('robots.txt');//Desde webpack
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/");
+  eleventyConfig.addPassthroughCopy("_includes/fonts/");
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");

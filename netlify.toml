@@ -20,7 +20,11 @@
 #[[headers]]
 #   Define which paths this specific [[headers]] block will cover.
 #   for = "/*"
+for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
 
+    
 #[headers.values]
 #   X-Frame-Options = "DENY"
 #   X-XSS-Protection = "1; mode=block"

@@ -1,6 +1,99 @@
+
+{% set js %}
+    {% include "assets/main.js" %}
+{% endset %}
+<script>{{ js | jsmin | safe }}</script>
+
 <footer>
-  <small>
-    This project is maintained by <a href="https://www.danurbanowicz.com">Dan Urbanowicz</a>.
-    Check out the <a href="{{ pkg.repository.url }}">GitHub repo</a>.
-  </small>
+    <div class="social-media">
+        <div class="facebook">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="../../static/img/facebook-official.svg" alt="facebook icon">
+            </a>
+        </div>
+        <div class="instagram">
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="../../static/img/instagram.svg" alt="instagram icon">
+            </a>
+        </div>
+        <div class="twitter">
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="../../static/img/twitter.svg" alt="twitter icon">
+            </a>
+        </div>
+        <div class="youtube">
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="../../static/img/youtube-play.svg" alt="youtube icon">
+            </a>
+        </div>
+    </div>
+
+    <div class="sections">
+        <div class="section-content">
+            <span><a href="https://www.google.es/" target="_blank">About this project</a></span>
+            <span><a href="https://www.google.es/" target="_blank">Media Center</a></span>
+            <span><a href="https://www.google.es/" target="_blank">Privacy</a></span>
+            <span><a href="https://www.google.es/" target="_blank">Contact</a></span>
+        </div>
+        <div class="section-content">
+            <span><a href="https://www.google.es/" target="_blank">Most viewed</a></span>
+            <span><a href="https://www.google.es/" target="_blank">Last Releases</a></span>
+            <span><a href="https://www.google.es/" target="_blank">My Favourites</a></span>
+        </div>
+        <div class="section-content">
+            <span><a href="https://www.google.es/" target="_blank">Sci-Fi</a></span>
+            <span><a href="https://www.google.es/" target="_blank">Animation</a></span>
+            <span><a href="https://www.google.es/" target="_blank">Kids</a></span>
+        </div>
+        <div class="section-content">
+            <span><a href="https://www.google.es/" target="_blank">Trending Now</a></span>
+            <span><a href="https://www.google.es/" target="_blank">Continue Watching</a></span>
+        </div>
+    </div>
+
+    <span class="netflix-inc">&copy; 2018 Netflix inc.</span>
 </footer>
+
+{#   
+<footer class="mainfooter d-flex direction-column space-between" id=" footer">
+  <div class="container footer-container flex-start">
+      <div class="widgets d-flex space-between">
+          <div class="first-widget">
+              <ul>
+                  <li class="list-item">Audio and Subtitles</li>
+                  <li class="list-item">Media Center</li>
+                  <li class="list-item">Privacy</li>
+                  <li class="list-item">Contact us</li>
+              </ul>
+          </div>
+          <div class="second-widget">
+              <ul>
+                  <li class="list-item">Help Center</li>
+                  <li class="list-item">Cookie</li>
+                  <li class="list-item">Jobs</li>
+              </ul>
+          </div>
+          <div class="third-widget">
+              <ul>
+                  <li class="list-item">Audio Description</li>
+                  <li class="list-item">Investor Relations</li>
+                  <li class="list-item">Legal Notice</li>
+              </ul>
+          </div>
+          <div class="forth-widget">
+              <ul>
+                  <li class="list-item">Gift Card</li>
+                  <li class="list-item">Term Of Use</li>
+                  <li class="list-item">Corporate Information</li>
+              </ul>
+          </div>
+      </div>
+      <button class="button service">Service Code</button>
+      <p class="copyright">@copyright 2020 Vanilacodes, Inc.</p>
+  </div>
+
+
+</footer> #}
+
+
+

@@ -5,11 +5,18 @@
   <title>{{ title or renderData.title or metadata.title }}</title>
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
-    {% include "assets/css/inline.css" %}
+    {% include "assets/main.css" %}
+    {# {% include "assets/main.css" %} #}
+    {# {% include "assets/css/browse.css" %} #}
   {% endset %}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" integrity="sha256-t2kyTgkh+fZJYRET5l9Sjrrl4UDain5jxdbqe8ejO8A=" crossorigin="anonymous" />
   <style>{{ css | cssmin | safe }}</style>
-  {% set js %}
-    {% include "assets/js/inline.js" %}
-  {% endset %}
-  <script>{{ js | jsmin | safe }}</script>
+
+  {# {% set js %} #}
+    {# {% include "assets/main.js" %} #}
+  {# {% endset %} #}
+  {# <script>{{ js | jsmin | safe }}</script> #}
+  
+  {# {% include "components/webpack.njk" %} #}
+
 </head>

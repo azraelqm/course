@@ -1,4 +1,8 @@
-<nav>
+<nav class="nav-links d-flex flex-center flex-middle">
+  <a href="/">
+      <h2 class="logo logo-text red-color f-s-28 m-r-25">NETFLIX</h2>
+      <h2 class="second-logo-text red-color f-s-28">N</h2>
+  </a>
   {% set navPages = collections.all | eleventyNavigation %}
   <ul>
   {%- for entry in navPages %}

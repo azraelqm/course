@@ -3,4 +3,10 @@ layout: layouts/base.njk
 section: home
 ---
 
-{{ layoutContent | safe }}
+{# {{ layoutContent | safe }} #}
+{# <h1>Hola mundo</h1> #}
+
+{# para el trailer video inicial  #}
+{% include "components/trailersection.njk" %}
+{# carouseles #}			
+{% include "components/carousel.njk" %}
