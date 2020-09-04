@@ -3,6 +3,9 @@ import '../css/browse.css';
 import '../css/single.css';
 // import { saludar } from './carousel.js';
 import  { Carousel }  from './carousel.js';
+//node
+import '../../node_modules/shaka-player/dist/shaka-player.ui.js';
+import '../../node_modules/shaka-player/dist/controls.css';
 
 
 // const nombre = 'Fernando';
@@ -195,11 +198,12 @@ carousel2.initialize();
 // myapp.js
 // response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
 
+//
 var manifestUri =
     // 'https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd';
     // 'manifesturl.mpd';
     // 'cmaf4/manifest.mpd';
-    // 'cmaf6/manifesturl.mpd';
+    'cmaf/manifesturl.mpd';
     // 'ElephantsDream/stream.mpd'
     // 'https://drive.google.com/uc?export=download&id=1g0yEUW8jWQfrjcz7Y-fmOD8aKC24sasg';
     // 'https://drive.google.com/uc?export=download&id=1LPqBbNXrTltki7fXFCKZx72QlWyeQWoC';

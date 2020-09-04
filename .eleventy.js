@@ -107,6 +107,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_includes/assets/");
   eleventyConfig.addPassthroughCopy("_includes/fonts/");
 
+  //node
+  // eleventyConfig.addPassthroughCopy({
+  //   "node_modules/shaka-player/dist/shaka-player.ui.js": "lib/shaka-player.ui.js",
+  //   "node_modules/shaka-player/dist/controls.css": "lib/chartist.min.css"
+  // });
+
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
   let markdownItAnchor = require("markdown-it-anchor");

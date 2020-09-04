@@ -36,7 +36,7 @@ Leverage agile frameworks to provide a robust synopsis for high level overviews.
       <!-- <source src='https://drive.google.com/uc?export=download&id=1FpodGt3vobe7HNo8Nl29r5K-Q25uwyCI' > -->
     <!-- <source src='https://drive.google.com/file/d/1FpodGt3vobe7HNo8Nl29r5K-Q25uwyCI/preview' > -->
     <!-- <source src='https://docs.google.com/uc?export=open&id=1o9J-er8pJyikyJATmJIVDpmqzVmQ0HOZ' > -->
-    <source src='cmaf6/manifesturl.mpd' >
+    <source src='../../cmaf/manifesturl.mpd' >
       
   </video>
 </div>
