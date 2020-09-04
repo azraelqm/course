@@ -1,4 +1,4 @@
-// para admin cms 
+// para admin cms
 import '../css/browse.css';
 import '../css/single.css';
 // import { saludar } from './carousel.js';
@@ -37,8 +37,8 @@ let videoheader = document.getElementById("hero-video");
     // });
     videoheader.play();
   }, 3000);
-// 
-  
+//
+
 window.onscroll = function(){
   let header = document.querySelector('header');
   if (window.scrollY >100) {
@@ -56,10 +56,10 @@ window.onscroll = function(){
 //   let header = document.querySelector('header');
 //   if (window.scrollY >100) {
 //       header.style.backgroundColor = "black";//  css("background-color", "black");
-      
+
 //   } else {
 //       header.style.backgroundColor = "transparent"; //header.css("background-color", "transparent");
-      
+
 //   }
 // }
 // ---------- FIN Para el Header autoplay y transparencia del nav
@@ -151,8 +151,8 @@ btnPrev.addEventListener("click", e=>{
 
   // console.log(carouselas.eventArray);
   // console.log("--------------");
-  // console.log(carouselas.eventArray[0].eventName); 
-  
+  // console.log(carouselas.eventArray[0].eventName);
+
 
   // carouselas.eventArray.forEach(function(val, index, array) {
   //   console.log("val ", val, "index ", index, "array ",array);
@@ -162,8 +162,8 @@ btnPrev.addEventListener("click", e=>{
   // });
 
   // carouselas.eventArray[0].el.addEventListener()
-  
-  
+
+
 });
 
 // carouselas.eventArray[0].addEventListener("click",e=>{
@@ -179,3 +179,146 @@ var carousel2 = new Carousel({
 });
 carousel2.initialize();
 // ---------- Fin de carousel
+
+
+
+
+
+
+
+
+
+
+
+//**********VIDEO*************** */
+
+// myapp.js
+// response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
+
+var manifestUri =
+    // 'https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd';
+    // 'manifesturl.mpd';
+    // 'cmaf4/manifest.mpd';
+    // 'cmaf6/manifesturl.mpd';
+    // 'ElephantsDream/stream.mpd'
+    // 'https://drive.google.com/uc?export=download&id=1g0yEUW8jWQfrjcz7Y-fmOD8aKC24sasg';
+    // 'https://drive.google.com/uc?export=download&id=1LPqBbNXrTltki7fXFCKZx72QlWyeQWoC';
+    // 'videotss/index.m3u8';
+    // 'https://googledrive.com/host/1LPqBbNXrTltki7fXFCKZx72QlWyeQWoC';
+
+var invocation = new XMLHttpRequest();
+var url = '"https://drive.google.com/';
+
+function callOtherDomain(){
+  if(invocation) {
+    invocation.open('GET', url, true);
+    invocation.withCredentials = true;
+    invocation.onreadystatechange = handler;
+    invocation.send();
+  }
+}
+
+async function init() {
+  // When using the UI, the player is made automatically by the UI object.
+  const video = document.getElementById('video');
+
+  video.setAttribute('crossorigin', 'anonymous');
+
+
+  if (window.MediaSource) {
+    var mediaSource = new MediaSource();
+    // mediaSource.isTypeSupported('video/mp4; codecs="avc1.42E01E"; mediaOption=' + mediaOption);
+    video.src = URL.createObjectURL(mediaSource);
+    mediaSource.addEventListener('sourceopen', sourceOpen);
+  } else {
+    console.log("The Media Source Extensions API is not supported.")
+  }
+
+  function sourceOpen(e) {
+    URL.revokeObjectURL(video.src);
+    var mime = 'video/mp4';
+    var mediaSource = e.target;
+    var sourceBuffer = mediaSource.addSourceBuffer(mime);
+    var videoUrl = 'droid.webm';
+    fetch(videoUrl, {
+      // NEW - add a Content-Type header
+      mode: 'cors',
+      headers: {
+        'Access-Control-Allow-Origin':'*'
+      }
+    })
+      .then(function(response) {
+        return response.arrayBuffer();
+      })
+      .then(function(arrayBuffer) {
+        sourceBuffer.addEventListener('updateend', function(e) {
+          if (!sourceBuffer.updating && mediaSource.readyState === 'open') {
+            mediaSource.endOfStream();
+          }
+        });
+        sourceBuffer.appendBuffer(arrayBuffer);
+      });
+  }
+
+
+  const ui = video['ui'];
+
+  const config = {
+    //addSeekBar: false, //para no mostrar barra de produccion
+    // 'controlPanelElements': ['rewind', 'fast_forward'],
+    'overflowMenuButtons' : ['cast']
+  };
+  ui.configure(config);
+  // MediaSource.isTypeSupported('video/mp4; codecs="avc1.42E01E"; mediaOption=' + mediaOption);
+
+  const controls = ui.getControls();
+  const player = controls.getPlayer();
+
+  // Listen for error events.
+  player.addEventListener('error', onPlayerErrorEvent);
+  controls.addEventListener('error', onUIErrorEvent);
+
+  // Try to load a manifest.
+  // This is an asynchronous process.
+  try {
+    await player.load(manifestUri);
+    // This runs if the asynchronous load is successful.
+    console.log('The video has now been loaded!');
+  } catch (error) {
+    onPlayerError(error);
+  }
+}
+
+function onPlayerErrorEvent(errorEvent) {
+  // Extract the shaka.util.Error object from the event.
+  onPlayerError(event.detail);
+}
+
+function onPlayerError(error) {
+  // Handle player error
+  console.error('Error code', error.code, 'object', error);
+}
+
+function onUIErrorEvent(errorEvent) {
+  // Extract the shaka.util.Error object from the event.
+  onPlayerError(event.detail);
+}
+
+function initFailed() {
+  // Handle the failure to load
+  console.error('Unable to load the UI library!');
+}
+
+// Listen to the custom shaka-ui-loaded event, to wait until the UI is loaded.
+document.addEventListener('shaka-ui-loaded', init);
+// Listen to the custom shaka-ui-load-failed event, in case Shaka Player fails
+// to load (e.g. due to lack of browser support).
+document.addEventListener('shaka-ui-load-failed', initFailed);
+
+
+// let vidd = document.getElementById("videopp");
+
+// var source = document.createElement('source');
+// source.setAttribute('src', 'https://drive.google.com/uc?export=download&id=1LPqBbNXrTltki7fXFCKZx72QlWyeQWoC');
+
+// vidd.appendChild(source);

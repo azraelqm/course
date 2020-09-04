@@ -1,0 +1,528 @@
+[33mcommit 62c05760db1decfc1ae2906ba8a3fde277314a94[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: JoHaN JeFrY <azraelqm@gmail.com>
+Date:   Thu Sep 3 18:23:40 2020 -0500
+
+    Prueba interfaz
+
+[33mcommit d50d383209d1b3efcf44bb1f98e2ef34e172d5cc[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 15:12:34 2020 +0200
+
+    Removed unused posts output
+
+[33mcommit bafe00c80a73ca6cf4a49d43342ec6902284c88d[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 15:01:02 2020 +0200
+
+    Delete Author “chris-rock”
+
+[33mcommit f5b80b174dea45bd0ef3067f0f37c57ce50c18de[m
+Author: dan.urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:57:06 2020 +0000
+
+    Create Author “chris-rock”
+
+[33mcommit 949fcb1cf8e5b4c3b6f836148318dec3ef2e88de[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 14:54:24 2020 +0200
+
+    Updated demo site TLD to use .app
+
+[33mcommit 31277050361b1fc1050e21e66ca59bd00cacd26a[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 14:53:19 2020 +0200
+
+    Updated site URL to use Netlify's new .app TLD
+
+[33mcommit 7ded215faa51cb22e13e97f2321657a1dc737cd0[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 14:52:15 2020 +0200
+
+    Updated incorrect repo branch
+
+[33mcommit a512ddbf1b1eef57b97a614c9b4a4e4bdd3b8f7e[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 14:51:19 2020 +0200
+
+    Added to latest updates
+
+[33mcommit ce14f532e4dcedc9b2431fd1de5a3e4d1066a52e[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 14:47:09 2020 +0200
+
+    Update postslist.njk
+
+[33mcommit 934f652ecce95196dde1da854061b85bbdd3bf53[m
+Author: dan.urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:41:42 2020 +0000
+
+    Update Post “firstpost”
+
+[33mcommit 5ab2ee08d363df79daac496b8bdc048770e80ad5[m
+Author: dan.urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:41:23 2020 +0000
+
+    Create Author “john-appleseed”
+
+[33mcommit 8a4955a30ad8148a350fd708463abf5c9406f31f[m
+Author: dan.urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:39:27 2020 +0000
+
+    Update Post “fourthpost”
+
+[33mcommit e161984d86e5bda8059298c9308147738fca0820[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 14:35:35 2020 +0200
+
+    Updated author templates
+
+[33mcommit 99b5373e172b1814882fa303ceb730c08de585f7[m
+Author: dan.urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:22:41 2020 +0000
+
+    Update Post “thirdpost”
+
+[33mcommit f2004864a22e4f7692a5978a8e62350f0800ef1e[m
+Author: dan.urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:21:26 2020 +0000
+
+    Create Author “jane-doe”
+
+[33mcommit ed6bc7c66c751ffdf887537ec863331fa24fbbae[m
+Author: dan.urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:20:56 2020 +0000
+
+    Create Author “dan-urbanowicz”
+
+[33mcommit d12e997fd3c49cfdac6b4dc9be4316af23fab7fe[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 14:20:35 2020 +0200
+
+    Delete Author “map-name-john-appleseed-email-jappleseed-apple-com-github-https-www-github-com-johnappleseed”
+
+[33mcommit f2f7d67966105a03b35fa8f2b02586e0137c9a0e[m
+Author: dan.urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:19:51 2020 +0000
+
+    Create Author “john-doe”
+
+[33mcommit 14cd0fa83ff26e337c34aaec09b2c7ea4b2d6604[m
+Author: dan.urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:18:22 2020 +0000
+
+    Update Post “fourthpost”
+
+[33mcommit 2a3c813bf4025f02c48a16011b7fa54d03fce587[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 14:15:39 2020 +0200
+
+    Update config.yml
+
+[33mcommit 5601dc90fe0606da52955b0e5b044e5893d00ac0[m
+Author: dan.urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:07:09 2020 +0000
+
+    Create Author “map-name-john-appleseed-email-jappleseed-apple-com-github-https-www-github-com-johnappleseed”
+
+[33mcommit 2ed0743404629af48764fdde0cc5e60fdb6d3e5d[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 14:02:22 2020 +0200
+
+    Addes authors as a folder collection
+
+[33mcommit 3a7b45d90b3ab4ba998d32feee0aeb5668f0a90e[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 13:44:17 2020 +0200
+
+    Update config.yml
+
+[33mcommit fceeebfaf6601ed906a5fc844f7d76feaf1a1959[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 13:41:40 2020 +0200
+
+    Update config.yml
+
+[33mcommit 21d6d3dd9d8d983f3a1d7c73fadd0caa84959b91[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 13:35:16 2020 +0200
+
+    Update config.yml
+
+[33mcommit 4fc0835547b8bddfbecf0b47eff2066798b55f24[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:51:02 2020 +0200
+
+    Update config.yml
+
+[33mcommit 946baf4e369d8065401718cd98072a9d27ee7021[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:45:14 2020 +0200
+
+    Update config.yml
+
+[33mcommit 86dd8a4596e3ec51332ed50d6fd62795d908daef[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:36:48 2020 +0200
+
+    Update authors.json
+
+[33mcommit 4f7a2aaf6f86ead30515c7e09174188d170ca05c[m
+Author: dan.urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 10:34:59 2020 +0000
+
+    Update Settings “authors”
+
+[33mcommit d66661eac447c86962a1e5f22d09219ea8b2efcd[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:32:08 2020 +0200
+
+    Update authors.json
+
+[33mcommit abaa93ef66ab87795f547df574847df05ec09a88[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 12:24:30 2020 +0200
+
+    Update config.yml
+
+[33mcommit e9a05b6dc08d94d707186e87ac68a51bf895bd93[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 11:58:47 2020 +0200
+
+    Update config.yml
+
+[33mcommit 6cac08350cbf446686fbea66c398ff4d54c6f514[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 11:55:15 2020 +0200
+
+    Update config.yml
+
+[33mcommit 33ad6f0f2ea86250e5b7031b0f32dd62b28d1a87[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 11:52:42 2020 +0200
+
+    Update config.yml
+
+[33mcommit 7665af25a54171225e7b2a0569c57751357b5df9[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 11:32:03 2020 +0200
+
+    Update config.yml
+
+[33mcommit 7b7b1b5e2c39bde62e50dac5b7cab22c69a9d289[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 11:30:26 2020 +0200
+
+    Update config.yml
+
+[33mcommit 1c7be5dd000d2a515ae16a752c6d1178fda429e3[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu May 21 11:01:26 2020 +0200
+
+    Added post authors
+
+[33mcommit ea930287f37f675f579baac1b9b26e5ef37cd34b[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Apr 9 15:08:14 2020 +0200
+
+    Removed whitespace
+
+[33mcommit e922df2514e8e8db6d867497744b2a54b984d185[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Tue Apr 7 13:33:32 2020 +0200
+
+    Changed silly CSS colour variable names
+
+[33mcommit 7707aeb90f4615dba2da534b8c201f3115862a30[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Apr 2 13:26:02 2020 +0200
+
+    Revert "Update head.njk"
+    
+    This reverts commit c45abdc93f81d194e5f5e083dacc10248b18ac08.
+
+[33mcommit c45abdc93f81d194e5f5e083dacc10248b18ac08[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Apr 2 13:20:31 2020 +0200
+
+    Update head.njk
+
+[33mcommit 623271fc5b94d8e61b57f21c4f37eb76ed1f0733[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Apr 2 13:16:43 2020 +0200
+
+    Add dns-prefetch for Identity script
+
+[33mcommit 247576e10acdf5ef749989dc66899d13a97307ec[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Apr 2 13:05:17 2020 +0200
+
+    Update dependencies
+
+[33mcommit 08b35531f256ccd5a42a7f0d1fc8f0348d5bd220[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Apr 2 13:04:59 2020 +0200
+
+    Fixed active menu item jumping
+
+[33mcommit e28a8cd91713584174c3b9507d9f0d15cb01bba4[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Mon Mar 30 11:06:30 2020 +0200
+
+    Updated dependencies
+
+[33mcommit 076713e985bd7794e2b0440321db7f4e84a6d47f[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Mar 19 09:35:27 2020 +0100
+
+    Added slugify package to config
+
+[33mcommit f8f50157edf7ffb6ab1db4bb4eff98cf385f2f1f[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Sun Mar 15 11:21:36 2020 +0100
+
+    Added example of inline image using Markdown format
+
+[33mcommit 1c17e2796baf0613812d2f23a3034770c5b6d41b[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Fri Mar 13 15:54:56 2020 +0100
+
+    Updated the default post collection method
+
+[33mcommit 785e9a4f06c6665113c03484f61c2a7c98257843[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Fri Mar 13 12:58:47 2020 +0100
+
+    Added Deep Data Merge behaviour as default
+    
+    https://www.11ty.dev/docs/data-deep-merge/
+
+[33mcommit 126f69fbe352009e75fd070d2c36b5449ffa887c[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Fri Mar 13 10:41:54 2020 +0100
+
+    Revert "Update .eleventy.js"
+    
+    This reverts commit 2dc814b3f0da1f82811942d577fca3fa27156949.
+
+[33mcommit 2dc814b3f0da1f82811942d577fca3fa27156949[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Fri Mar 13 10:41:37 2020 +0100
+
+    Update .eleventy.js
+
+[33mcommit fb1241cb138740f671cc6a054d83196e462a9762[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Fri Mar 13 10:28:00 2020 +0100
+
+    Removed unnecessary 'post' tag declarations from post frontmatter data
+    
+    The 'post' tag is already declared in the directory data file 'posts/posts.json'
+
+[33mcommit 84181c116cea5847dc20cd757a2eed81f0902ef9[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Fri Mar 13 10:22:39 2020 +0100
+
+    Commented out the optional layout aliasing example and added an explanation
+
+[33mcommit 1071e6a32d062e3a9692c7c4facc4bfa08eea946[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Feb 6 16:45:33 2020 +0100
+
+    Updated form help text
+
+[33mcommit 0612a5952a03904c355768f2a425147c8638f741[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Feb 6 16:39:42 2020 +0100
+
+    Update README.md
+
+[33mcommit 30bc429023666b8f9aae3a7139d8a60130525c79[m
+Merge: a3d8a17 33efc27
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Feb 6 16:37:12 2020 +0100
+
+    Merge pull request #27 from danurbanowicz/development
+    
+    Bumped Eleventy version to v0.10.0 and added Eleventy Navigation plugin support
+
+[33mcommit 33efc270c96699fc74500f7552ced64fe2cf8aca[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Feb 6 16:33:25 2020 +0100
+
+    Updated feature list, command line usage
+
+[33mcommit fdf50042667271b299198cc4c935502978ad6699[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Feb 6 16:12:15 2020 +0100
+
+    Updated to use the Eleventy Navigation plugin
+
+[33mcommit a3d8a17d16bf1de808b959fd328e478d2aeeb315[m
+Merge: 736e3c9 6828a7d
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Feb 6 16:06:00 2020 +0100
+
+    Merge pull request #26 from d2s/patch-1
+    
+    fix: spelling improvement
+
+[33mcommit 6828a7da7a2682ad16032f11127b66b1324e64f0[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Feb 6 16:05:04 2020 +0100
+
+    Update home.md
+
+[33mcommit 0a5d4bfcc216866e223a6412e2beb1504b4d2bcd[m
+Author: Daniel Schildt <daniel.schildt@gmail.com>
+Date:   Mon Jan 20 04:14:37 2020 +0200
+
+    fix: spelling improvement
+    
+    - Spelling improvement
+      - Change `Github` to `GitHub`
+
+[33mcommit 7e6d3632d50918f4aa0b0a30e11b36119588181b[m
+Author: Daniel Schildt <daniel.schildt@gmail.com>
+Date:   Mon Jan 20 04:08:57 2020 +0200
+
+    fix: spelling improvement
+    
+    - Spelling improvement
+      - Change `Github` to `GitHub`
+      - Add `a` before a word
+
+[33mcommit 736e3c9c91db425d796ca3fb7de13536eb893b5b[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Mon Dec 30 12:01:38 2019 +0100
+
+    Delete sdfsdfsdf.md
+
+[33mcommit 29bfcf4d5e7dc4bea73bc3f07a72f6cc55d2220b[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Mon Dec 30 12:01:18 2019 +0100
+
+    Bump luxon version to 1.21.3
+
+[33mcommit 4e5eaf788113ca54d81c9e415361bf7eae9fdbe4[m
+Merge: d2fd01e 29d44a2
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Sun Dec 29 09:07:50 2019 +0100
+
+    Merge pull request #24 from danurbanowicz/dependabot/npm_and_yarn/handlebars-4.5.3
+    
+    Bump handlebars from 4.1.2 to 4.5.3
+
+[33mcommit 29d44a2a9b8931ce9fa5d82cf91c4e6f62fe306f[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Sun Dec 29 02:31:43 2019 +0000
+
+    Bump handlebars from 4.1.2 to 4.5.3
+    
+    Bumps [handlebars](https://github.com/wycats/handlebars.js) from 4.1.2 to 4.5.3.
+    - [Release notes](https://github.com/wycats/handlebars.js/releases)
+    - [Changelog](https://github.com/wycats/handlebars.js/blob/master/release-notes.md)
+    - [Commits](https://github.com/wycats/handlebars.js/compare/v4.1.2...v4.5.3)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit d2fd01e7835482d86e693f1dcdc739246533da6a[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Sat Nov 9 13:46:42 2019 +0100
+
+    Added favicon.ico to site root to prevent Chrome/Webkit 404 error
+
+[33mcommit 9710634c0eeac3c320fa6ed1e771679567252435[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Sat Nov 9 11:10:36 2019 +0100
+
+    Fixed date formatting to work with date-fns 2.7.0
+
+[33mcommit ad53f0ba26008ddf48eb6db30a2494d40d1845bc[m
+Merge: 948108d a417c00
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Sat Nov 9 11:06:55 2019 +0100
+
+    Merge branch 'master' of https://github.com/danurbanowicz/eleventy-netlify-boilerplate
+
+[33mcommit 948108d39579a45be17052e983117f50e373a961[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Sat Nov 9 11:06:50 2019 +0100
+
+    Updated dependencies
+
+[33mcommit a417c0010b4065f40d9c4669d7face874ec0459f[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Fri Nov 8 17:04:05 2019 +0100
+
+    Removed additional trailing slash from demo link
+
+[33mcommit 03babab18c31b3a1c460790c7c09f37f6ebe17be[m
+Merge: 68d11d5 d827f2e
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Thu Oct 31 13:29:02 2019 +0100
+
+    Merge pull request #20 from ohadpr/master
+    
+    Yup, this is probably the correct behaviour here. Thanks @ohadpr
+
+[33mcommit d827f2e61de579754ac86ca31f8cad28cd3f08d4[m
+Author: Ohad Eder-Pressman <ohadpr@users.noreply.github.com>
+Date:   Wed Oct 30 15:02:01 2019 -0700
+
+    Limited the none styling of <ul> to the nav
+    
+    I suspect this was the intention of the author because with the current styling <ul> have no styling inside the content as well.
+
+[33mcommit 68d11d5b808e4f01b4c7e88948283b048982fafc[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Mon Sep 23 18:28:32 2019 +0200
+
+    Updated dependencies
+
+[33mcommit 9c261fc444ec94aec12638c221cdf5bf6ed3dcda[m
+Merge: 1aa22c5 80c5396
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Tue Sep 17 21:35:46 2019 +0200
+
+    Merge pull request #19 from janmei/master
+    
+    Corrected eleventy version
+
+[33mcommit 80c5396c00162884ed3c26b3b68db1dbe66b198c[m
+Author: Jan Meininghaus <hey@janmeininghaus.com>
+Date:   Tue Sep 17 19:30:23 2019 +0000
+
+    Create Post “sdfsdfsdf”
+
+[33mcommit e97ac870ec100396c59fae195c765365ed36e548[m
+Author: Jan Meininghaus <jan.meininghaus@web.de>
+Date:   Tue Sep 17 20:56:23 2019 +0200
+
+    Update package.json
+
+[33mcommit 1aa22c59140ee02d450b54c285f101abfc156263[m
+Merge: e6fa7ac 77f47e3
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Tue Sep 17 16:44:31 2019 +0200
+
+    Merge pull request #17 from danurbanowicz/dependabot/npm_and_yarn/lodash-4.17.15
+    
+    Bump lodash from 4.17.11 to 4.17.15
+
+[33mcommit e6fa7acf9e84fc0b5edea79d69fe876ddc73c153[m
+Author: Dan Urbanowicz <dan.urbanowicz@gmail.com>
+Date:   Tue Sep 17 16:43:39 2019 +0200
+
+    Update dependencies
+
+[33mcommit 77f47e35a83bcdb9c830e03065931e2bce9696c6[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Jul 24 13:35:39 2019 +0000
+
+    Bump lodash from 4.17.11 to 4.17.15
+    
+    Bumps [lodash](https://github.com/lodash/lodash) from 4.17.11 to 4.17.15.
+    - [Release notes](https://github.com/lodash/lodash/releases)
+    - [Commits](https://github.com/lodash/lodash/compare/4.17.11...4.17.15)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>

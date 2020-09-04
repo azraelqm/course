@@ -24,6 +24,24 @@ Leverage agile frameworks to provide a robust synopsis for high level overviews.
   </video>
 </div>
 
+
+<h2>SHAKA </h2>
+<div data-shaka-player-container style="max-width:40em"
+    data-shaka-player-cast-receiver-id="A15A181D" >
+
+
+    
+  <video autoplay data-shaka-player id="video" style="width:100%;height:100%" >
+    <!-- <source src='https://docs.google.com/uc?export=open&id=1FpodGt3vobe7HNo8Nl29r5K-Q25uwyCI' > -->
+      <!-- <source src='https://drive.google.com/uc?export=download&id=1FpodGt3vobe7HNo8Nl29r5K-Q25uwyCI' > -->
+    <!-- <source src='https://drive.google.com/file/d/1FpodGt3vobe7HNo8Nl29r5K-Q25uwyCI/preview' > -->
+    <!-- <source src='https://docs.google.com/uc?export=open&id=1o9J-er8pJyikyJATmJIVDpmqzVmQ0HOZ' > -->
+    <source src='cmaf6/manifesturl.mpd' >
+      
+  </video>
+</div>
+
+
 REQUISITOS:
 desde cola crear 2 carpetas: 
 1° donde iran la lista de .md con sus respectivos title date author etc
