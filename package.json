@@ -63,6 +63,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "@11ty/eleventy-navigation": "^0.1.5"
+    "@11ty/eleventy-navigation": "^0.1.5",
+    "shaka-player": "^3.0.4"
   }
 }
