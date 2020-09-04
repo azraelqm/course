@@ -98,11 +98,12 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-  // Don't process folders with static assets e.g. images  
+  // Don't process folders with static assets e.g. images
   //eleventyConfig.addPassthroughCopy('robots.txt');//Desde webpack
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("admin");
+  eleventyConfig.addPassthroughCopy("cmaf");
   eleventyConfig.addPassthroughCopy("_includes/assets/");
   eleventyConfig.addPassthroughCopy("_includes/fonts/");
 

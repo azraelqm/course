@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="urn:mpeg:dash:schema:mpd:2011"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+	profiles="urn:mpeg:dash:profile:isoff-live:2011"
+	type="static"
+	mediaPresentationDuration="PT3.9S"
+	maxSegmentDuration="PT3.0S"
+	minBufferTime="PT6.6S">
+	<ProgramInformation>
+	</ProgramInformation>
+	<ServiceDescription id="0">
+	</ServiceDescription>
+	<Period id="0" start="PT0.0S">
+		<AdaptationSet id="0" contentType="video" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" frameRate="29/1" maxWidth="406" maxHeight="720" par="203:360" lang="und">
+			<Representation id="0" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="891940" width="406" height="720" sar="1:1">
+				<SegmentList timescale="1000000" duration="3000000" startNumber="1">
+					<Initialization sourceURL="https://drive.google.com/uc?export=download&amp;id=1csB__X8rp2KBv0BuJ6RB_8Ne2UjXIdGc" />
+					<SegmentURL media="https://drive.google.com/uc?export=download&amp;id=1wHpnbL5Mxq1SGx4Ah43cO62l_-iwEmL6" />
+					<SegmentURL media="https://drive.google.com/uc?export=download&amp;id=1ahGeoW6bYjslvKi3CdOrGrN9WvTvTna_" />
+				</SegmentList>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet id="1" contentType="audio" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" lang="eng">
+			<Representation id="1" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="128000" audioSamplingRate="44100">
+				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+				<SegmentList timescale="1000000" duration="3000000" startNumber="1">
+					<Initialization sourceURL="https://drive.google.com/uc?export=download&amp;id=12wm5eey7qjBQj_eSz1tfQcG3U6lByrHe" />
+					<SegmentURL media="https://drive.google.com/uc?export=download&amp;id=1e6lbcoBcZlZm3_HipShX10rP9EqadMmK" />
+					<SegmentURL media="https://drive.google.com/uc?export=download&amp;id=1n0O0G7ZSjN8pkY0DKNTiYLKHwKMagU9P" />
+				</SegmentList>
+			</Representation>
+		</AdaptationSet>
+	</Period>
+</MPD>
